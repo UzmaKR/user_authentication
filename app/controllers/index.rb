@@ -25,7 +25,7 @@ end
 
 delete '/sessions/:id' do
   # sign-out -- invoked via AJAX
-  ["#{session.delete(:id)}"]
+  "#{session.delete(:id)}"
 end
 
 #----------- USERS -----------
